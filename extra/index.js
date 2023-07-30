@@ -7,5 +7,5 @@ function getValue() {
 }
 
 function load() {
-    
+    alert("hi")
 }
