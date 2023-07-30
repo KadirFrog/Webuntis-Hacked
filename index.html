@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
     <title>Webuntis Plus</title>
     <link rel="icon" type="image/x-icon" href="src/images/wpicon.ico">
     <script src="index.js"></script>
@@ -8,11 +12,11 @@
     </head>
     <body style="background-color: antiquewhite;">
         <center>
-        <h1 id="title"><b>Webuntis Plus</b><italic>*</italic></h1>
-        <h3>In Erinnerung an das legendäre DSB Hacked</h3><br>
+        <h1 id="title" class="animate__animated animate__rotateInUpLeft animate__repeat-1"><b>Webuntis Plus</b><italic>*</italic></h1>
+        <h3 class="animate__animated animate__pulse animate__repeat-1 animate__delay-1s">In Erinnerung an das legendäre DSB Hacked</h3><br>
 
         <label for="Klasse">Wähle deine Klasse aus:</label>
-        <select id="Klasse">
+        <select id="Klasse" class="animate__animated animate__rotateIn animate__delay-2s">
             <option value="0">Auswählen</option>
             <option value="1">5a</option>
             <option value="2">5b</option>
@@ -36,7 +40,7 @@
             <option value="20">J2</option>
         </select>
         <button onclick="let Klasse = getValue();
-        console.log(Klasse)">Enter</button>
+        console.log(Klasse)" class="animate__animated animate__rotateIn animate__delay-2s">Enter</button>
         <button onclick="test()">Test</button>
         <p>Bist du aus der 7/9d? <a href="extra/d-klasse.html">Hier Klicken</a></p>
         </center>
