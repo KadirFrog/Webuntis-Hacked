@@ -5,6 +5,12 @@ function getValue() {
     const selectedValue = selectElement.value;
     return selectedValue;
 }
+
+function load() {
+    
+}
+
+
 function test() {
     alert(Klasse);
 }
